@@ -8,12 +8,13 @@ void setup()
   size(300,300);
   strokeWeight(3);
   background(10,10,50);
+
 }
 
 void draw()
 {
 fill(0,0,30,4);
-square(0,0,300);
+rect(0,0,300,300);
 fill(0,0,0);
 stroke(255,255,255);
 noLoop();
